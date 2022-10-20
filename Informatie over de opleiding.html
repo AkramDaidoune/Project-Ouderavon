@@ -1,0 +1,61 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Informatie over de opleiding-Software developer</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="Home pagina.html"><img src="images/tcr logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="Home pagina.html">Home</a></li>
+                    <li><a href="Over ons.html">over de school</a></li>
+                    <li><a href="course.html">Canvas</a></li>
+                    <li><a href="blog.html">Studie advies</a></li>
+                    <li><a href="contact.html">Eduarte</a></li>
+                    <li><a href="Informatie over de opleiding.html">Informatie over de opleiding</a></li>
+                    <li><a href="contact.html">Examenplanning</a></li>
+                    <li><a href="contact.html">Inloggen voor studenten</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>   
+            <h1>Software development</h1>
+    </section>
+    
+    
+<!------- about us content -------->
+    
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Software development</h1>     
+            <p>Jij bedenkt, ontwerpt én bouwt computerprogramma’s, websites of games. Je kunt zelfstandig werken. Maar je vindt het ook leuk om samen te werken met developers en designers. Ook ben je een echte doorzetter en een creatieve duizendpoot. Na deze opleiding laat jij wensen tot leven komen met technologie. Woon je in Rotterdam-Zuid en wil je snel aan het werk? Deze opleiding heeft een AanDeBak-garantie.</p>  
+            <a href="https://youtu.be/-7FKNqn0bWc" class="hero-btn red-btn" target="_blank"></a> 
+        </div>
+        <div class="about-col">
+            <img src="images/mbo-student-software-developer-introductie.jpg">
+        </div>
+    </div>    
+</section>
+
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    
